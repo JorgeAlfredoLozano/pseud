@@ -1,0 +1,26 @@
+/* Editor.module.css */
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+}
+
+.nroLinea{
+    flex: 10%;
+    resize: none;
+}
+.editor {
+    flex: 90%;
+    resize: none;
+}
+
+/* Resto de los estilos si es necesario */

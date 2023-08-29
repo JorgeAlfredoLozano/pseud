@@ -1,0 +1,33 @@
+/* Editor.module.css */
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.nroLinea,
+.editor,
+.terminal {
+  flex: 1;
+}
+
+.editor {
+  flex: 70; /* Cambia el valor a 70 */
+}
+
+.terminal {
+  flex: 30; /* Cambia el valor a 30 */
+}
+
+
+
