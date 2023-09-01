@@ -17,6 +17,7 @@
 .nroLinea{
     flex: 10%;
     resize: none;
+    text-align: right;
 }
 .editor {
     flex: 90%;
